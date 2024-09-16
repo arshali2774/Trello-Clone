@@ -33,7 +33,8 @@ A trello clone built with Next.js 14 (TypeScript), Server Actions, React, Prisma
 - Inside `platform` folder, made a `layout.tsx` file with `ClerkProvider` component.
 - Added a `middleware.ts` file inside root directory.
 - Added following folders and files inside `(platform)` folder.
-  - ```bash
+
+```bash
     /(clerk)
       /sign-in
         /[[...sign-in]]
@@ -41,4 +42,6 @@ A trello clone built with Next.js 14 (TypeScript), Server Actions, React, Prisma
       /sign-up
         /[[...sign-up]]
           /page.tsx
-    ```
+```
+
+- Each `page.tsx` file contains `SignIn` and `SignUp` components from `@clerk/nextjs` package respectively.
