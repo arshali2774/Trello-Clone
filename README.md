@@ -23,3 +23,22 @@ A trello clone built with Next.js 14 (TypeScript), Server Actions, React, Prisma
 - Added a `public` folder inside root directory.
 - Added `logo.svg` file inside `public` folder.
 -
+- Added `config` folder inside root directory.
+- Added `site.ts` file inside `config` folder.
+- Added metadata inside `layout.tsx` file.
+- Added favicon to metadata inside `layout.tsx` file.
+- Added `.env` inside `.gitignore` file.
+- Added `.env` in root directory.
+- Added `(platform)` folder inside `app` folder.
+- Inside `platform` folder, made a `layout.tsx` file with `ClerkProvider` component.
+- Added a `middleware.ts` file inside root directory.
+- Added following folders and files inside `(platform)` folder.
+  - ```bash
+    /(clerk)
+      /sign-in
+        /[[...sign-in]]
+          /page.tsx
+      /sign-up
+        /[[...sign-up]]
+          /page.tsx
+    ```
